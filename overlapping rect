@@ -1,0 +1,11 @@
+noFill();
+strokeWeight(1);
+var x = 0;
+var y = 400;
+
+var draw = function() {
+   rect(x,x,y,y);
+   x=x+3;
+   y=y-6;
+   
+};
